@@ -20,6 +20,10 @@
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="<?= get_template_directory_uri() . '/assets/css/custom.css' ?>">
+	<!-- Favicon -->
+	<link  rel="icon" media="(prefers-color-scheme: light)" href="/wp-content/icons/favicon-light-mode.ico">
+	<link  rel="icon" media="(prefers-color-scheme: dark)" href="/wp-content/icons/favicon-dark-mode.ico">
+
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
