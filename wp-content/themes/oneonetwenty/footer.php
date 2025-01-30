@@ -43,6 +43,23 @@
 			});
 		});
 	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			let link = document.querySelector("link[rel~='icon']");
+			if (link) {
+				link.href = window.matchMedia("(prefers-color-scheme: dark)").matches
+					? "/wp-content/icons/favicon-dark-mode.ico"
+					: "/wp-content/icons/favicon-light-mode.ico";
+			} else {
+				let newLink = document.createElement("link");
+				newLink.rel = "icon";
+				newLink.href = window.matchMedia("(prefers-color-scheme: dark)").matches
+					? "/wp-content/icons/favicon-dark-mode.ico"
+					: "/wp-content/icons/favicon-light-mode.ico";
+				document.head.appendChild(newLink);
+			}
+		});
+	</script>
 
 	</body>
 </html>

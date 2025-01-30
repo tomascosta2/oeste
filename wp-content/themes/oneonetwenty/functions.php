@@ -861,3 +861,6 @@ function detectar_creacion_campos_acf($field_group) {
 
 // Agregar la función al gancho 'acf/update_field_group' que se dispara cuando se actualiza un grupo de campos
 add_action('acf/update_field_group', 'detectar_creacion_campos_acf');
+
+// Desabilitar ICON de wordpress
+remove_action('wp_head', 'wp_site_icon');
