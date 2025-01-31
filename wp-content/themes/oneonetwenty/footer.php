@@ -60,6 +60,23 @@
 			}
 		});
 	</script>
+	<script>
+		new Swiper(".mySwiper", {
+			loop: true, // Hace que el slider sea infinito
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			autoplay: {
+				delay: 3000, // Cambia de imagen cada 3 segundos
+				disableOnInteraction: false,
+			},
+		});
+	</script>
 
 	</body>
 </html>

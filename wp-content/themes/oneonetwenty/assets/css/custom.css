@@ -210,6 +210,12 @@ h1.tcp-title {
 	color: #FFF;
 }
 
+/* OESTE */
+.oe-campo__lista strong {
+	font-size: 20px;
+	color: #29008D;
+}
+
 @media (max-width: 1200px) {
 	/* Header < 1200 */
 	.tcp-header {
