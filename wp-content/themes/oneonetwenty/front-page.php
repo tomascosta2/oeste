@@ -186,4 +186,7 @@ get_header();
         </div>
     </div>
 </section>
+<section>
+    <video src="/wp-content/videos/video-2.mp4" autoplay muted playsinline></video>
+</section>
 <?php get_footer(); ?>
