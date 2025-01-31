@@ -48,13 +48,13 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-[50%] h-[650px] bg-gray-500">
+                <div class="w-[50%] h-[560px] bg-gray-500">
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_1']['imagenes'] as $imagen) {
                                 echo '<div class="swiper-slide h-full">
-                                        <img class="h-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
+                                        <img class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
                                     </div>';
                             }
                             ?>
@@ -86,13 +86,13 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-[50%] h-[650px] bg-gray-500">
+                <div class="w-[50%] h-[560px] bg-gray-500">
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_2']['imagenes'] as $imagen) {
                                 echo '<div class="swiper-slide h-full">
-                                        <img class="h-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
+                                        <img class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
                                     </div>';
                             }
                             ?>
@@ -124,13 +124,13 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-[50%] h-[650px] bg-gray-500">
+                <div class="w-[50%] h-[560px] bg-gray-500">
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_3']['imagenes'] as $imagen) {
                                 echo '<div class="swiper-slide h-full">
-                                        <img class="h-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
+                                        <img class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
                                     </div>';
                             }
                             ?>
@@ -162,13 +162,13 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-[50%] h-[650px] bg-gray-500">
+                <div class="w-[50%] h-[560px] bg-gray-500">
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_4']['imagenes'] as $imagen) {
                                 echo '<div class="swiper-slide h-full">
-                                        <img class="h-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
+                                        <img class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
                                     </div>';
                             }
                             ?>
