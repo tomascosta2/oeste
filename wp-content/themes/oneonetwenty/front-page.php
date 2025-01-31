@@ -69,7 +69,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="flex gap-8 pt-[60px]">
+            <div class="flex gap-8 pt-[80px]">
                 <div class="w-[50%]">
                     <h5 class="text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_2']['titulo'] ?></h5>
                     <div class="p-8 oe-campo__lista">
@@ -107,7 +107,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="flex gap-8 pt-[60px]">
+            <div class="flex gap-8 pt-[80px]">
                 <div class="w-[50%]">
                     <h5 class="text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_3']['titulo'] ?></h5>
                     <div class="p-8 oe-campo__lista">
@@ -145,7 +145,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="flex gap-8 pt-[60px]">
+            <div class="flex gap-8 pt-[80px]">
                 <div class="w-[50%]">
                     <h5 class="text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_4']['titulo'] ?></h5>
                     <div class="p-8 oe-campo__lista">

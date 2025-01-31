@@ -213,14 +213,14 @@ h1.tcp-title {
 /* OESTE */
 .oe-campo__lista strong {
 	font-size: 20px;
-	color: #29008D;
+	color: var(--primary-color);
 }
 .swiper-button-prev:after,
 .swiper-button-next:after {
-	color: white !important;
+	color: var(--primary-color) !important;
 }
 .swiper-pagination-bullet-active {
-	background-color: white !important;
+	background-color: var(--primary-color) !important;
 }
 
 @media (max-width: 1200px) {
