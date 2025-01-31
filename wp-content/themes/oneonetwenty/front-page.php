@@ -48,7 +48,7 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-[50%] h-[560px] bg-gray-500">
+                <div class="w-[50%] h-[560px] px-[80px] pb-[40px]">
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
@@ -86,7 +86,7 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-[50%] h-[560px] bg-gray-500">
+                <div class="w-[50%] h-[560px] px-[80px] pb-[40px]">
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
@@ -124,7 +124,7 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-[50%] h-[560px] bg-gray-500">
+                <div class="w-[50%] h-[560px] px-[80px] pb-[40px]">
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
@@ -162,7 +162,7 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-[50%] h-[560px] bg-gray-500">
+                <div class="w-[50%] h-[560px] px-[80px] pb-[40px]">
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
                             <?php

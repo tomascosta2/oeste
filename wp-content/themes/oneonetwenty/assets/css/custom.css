@@ -215,6 +215,13 @@ h1.tcp-title {
 	font-size: 20px;
 	color: #29008D;
 }
+.swiper-button-prev:after,
+.swiper-button-next:after {
+	color: white !important;
+}
+.swiper-pagination-bullet-active {
+	background-color: white !important;
+}
 
 @media (max-width: 1200px) {
 	/* Header < 1200 */
