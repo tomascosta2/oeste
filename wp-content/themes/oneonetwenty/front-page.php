@@ -2,6 +2,7 @@
 $hero_fields = get_field('hero');
 $nosotros_fields = get_field('nosotros');
 $campo_fields = get_field('campo_de_accion');
+$alcance_fields = get_field('alcance');
 
 get_header();
 ?>
@@ -188,5 +189,29 @@ get_header();
 </section>
 <section>
     <video src="/wp-content/videos/video-2.mp4" autoplay muted playsinline></video>
+</section>
+<section class="py-[80px]">
+    <div class="max-w-[1285px] mx-auto">
+        <div class="flex gap-8 justify-between">
+            <div>
+                <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($alcance_fields['titulo']) ?></h2>
+                <div class="grid gap-8">
+                    <?php
+                    $padding = 420;
+                    foreach ($alcance_fields['items'] as $item) {
+                        echo '<div class="flex gap-4 items-center ps-[' . $padding . 'px]">';
+                        echo    '<img class="w-[50px]" src="' . $item['icono']['url'] . '" alt="' . $item['icono']['alt'] . '" />';
+                        echo    '<h5 class="uppercase text-[18px]">' . $item['nombre'] . '</h5>';
+                        echo '</div>';
+                        $padding = $padding - 60;
+                    } 
+                    ?>
+                </div>
+            </div>
+            <div class="py-8 md:max-w-[45%]">
+                <img src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
+            </div>
+        </div>
+    </div>
 </section>
 <?php get_footer(); ?>
