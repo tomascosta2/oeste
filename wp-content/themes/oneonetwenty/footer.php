@@ -76,6 +76,26 @@
 				disableOnInteraction: false,
 			},
 		});
+
+		new Swiper(".logosSwiper", {
+			loop: true,
+			autoplay: {
+				delay: 1000,
+				disableOnInteraction: false,
+			},
+			breakpoints: {
+				0: {
+					slidesPerView: 2,
+				},
+				500: {
+					slidesPerView: 4,
+				},
+				992: {
+					slidesPerView: 6,
+				},
+			},
+			spaceBetween: 16
+		});
 	</script>
 
 	</body>

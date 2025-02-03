@@ -3,6 +3,7 @@ $hero_fields = get_field('hero');
 $nosotros_fields = get_field('nosotros');
 $campo_fields = get_field('campo_de_accion');
 $alcance_fields = get_field('alcance');
+$colaboraciones_fields = get_field('colaboraciones');
 
 get_header();
 ?>
@@ -204,12 +205,31 @@ get_header();
                         echo    '<h5 class="uppercase text-[18px]">' . $item['nombre'] . '</h5>';
                         echo '</div>';
                         $padding = $padding - 60;
-                    } 
+                    }
                     ?>
                 </div>
             </div>
             <div class="py-8 md:max-w-[45%]">
                 <img src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-[80px]">
+    <div class="max-w-[1285px] mx-auto">
+        <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($colaboraciones_fields['titulo']) ?></h2>
+        <p class="text-[18px] text-[#111] text-justify px-4 max-w-[560px]">
+            <?php echo strip_tags($colaboraciones_fields['descripcion']) ?>
+        </p>
+        <div class="swiper logosSwiper h-full mt-8">
+            <div class="swiper-wrapper h-full">
+                <?php
+                foreach ($colaboraciones_fields['logos'] as $logo) {
+                    echo '<div class="swiper-slide h-full">
+                            <img class="h-[80px] w-full object-contain mix-blend-lighten" src="' . $logo['logo']['url'] . '" alt="' . $logo['logo']['alt'] . '">
+                        </div>';
+                }
+                ?>
             </div>
         </div>
     </div>
