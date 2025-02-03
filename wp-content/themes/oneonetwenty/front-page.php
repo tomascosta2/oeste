@@ -29,7 +29,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="py-[80px]">
+<section class="py-[80px] relative bg-white z-50">
     <div class="max-w-[1285px] mx-auto">
         <div>
             <h2 class="text-[36px] px-4 font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($campo_fields['titulo']) ?></h2>
@@ -188,10 +188,10 @@ get_header();
         </div>
     </div>
 </section>
-<section>
-    <video src="/wp-content/videos/video-2.mp4" autoplay muted playsinline></video>
+<section class="md:px-[280px] md:py-[80px] bg-[#343638] sticky top-0 -mt-[400px] h-[1100px]">
+    <video class="shadow-lg" src="/wp-content/videos/video-2.mp4" autoplay muted playsinline></video>
 </section>
-<section class="py-[80px]">
+<section class="py-[80px] bg-white relative">
     <div class="max-w-[1285px] mx-auto">
         <div class="flex gap-8 justify-between">
             <div>
@@ -215,13 +215,13 @@ get_header();
         </div>
     </div>
 </section>
-<section class="py-[80px]">
+<section class="py-[80px] bg-white relative">
     <div class="max-w-[1285px] mx-auto">
         <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($colaboraciones_fields['titulo']) ?></h2>
         <p class="text-[18px] text-[#111] text-justify px-4 max-w-[560px]">
             <?php echo strip_tags($colaboraciones_fields['descripcion']) ?>
         </p>
-        <div class="swiper logosSwiper h-full mt-8">
+        <div class="swiper logosSwiper h-full mt-8 px-4">
             <div class="swiper-wrapper h-full">
                 <?php
                 foreach ($colaboraciones_fields['logos'] as $logo) {
