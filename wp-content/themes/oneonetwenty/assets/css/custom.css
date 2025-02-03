@@ -221,6 +221,7 @@ h1.tcp-title {
 }
 .footer-datos p {
 	display: flex;
+	align-items: center;
 	gap: 32px;
 	font-size: 18px;
 }
