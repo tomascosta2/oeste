@@ -215,7 +215,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="py-[80px] bg-white relative">
+<section class="pt-[80px] pb-[100px] bg-white relative">
     <div class="max-w-[1285px] mx-auto">
         <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($colaboraciones_fields['titulo']) ?></h2>
         <p class="text-[18px] text-[#111] text-justify px-4 max-w-[560px]">

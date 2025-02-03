@@ -10,7 +10,7 @@
 if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 
 	<footer class="tcp-footer">
-		<div class="max-w-[1200px] mx-auto px-4 xl:px-0">
+		<div class="px-4 xl:px-0">
 			<div class="tcp-footer__wrapper">
 				<?php dynamic_sidebar( 'sidebar-1' ); ?>
 			</div>

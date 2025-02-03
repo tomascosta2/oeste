@@ -198,16 +198,35 @@ h1.tcp-title {
 /* Footer */
 .tcp-footer {
 	background-color: #201C23;
-	padding: 48px 0;
 }
 .tcp-footer__wrapper {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap !important;
-	gap: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
-.tcp-footer * {
-	color: #FFF;
+.tcp-footer__wrapper section:last-child {
+	grid-column: span 2 / span 2;
+}
+.footer-list {
+	list-style: disc;
+	list-style-position: inside;
+}
+.footer-list li {
+	margin-bottom: 16px;
+}
+.footer-datos > div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	padding-left: 200px;
+}
+.footer-datos p {
+	display: flex;
+	gap: 32px;
+	font-size: 18px;
+}
+.footer-datos p img {
+	height: 40px !important;
+	object-fit: contain;
 }
 
 /* OESTE */
