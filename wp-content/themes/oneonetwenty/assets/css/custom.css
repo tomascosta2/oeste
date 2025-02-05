@@ -1,7 +1,23 @@
 @font-face {
+    font-family: 'corbellight_italic';
+    src: url('/wp-content/fonts/corbel-final/corbelli-webfont.woff2') format('woff2'),
+         url('/wp-content/fonts/corbel-final/corbelli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'corbellight';
+    src: url('/wp-content/fonts/corbel-final/corbell-webfont.woff2') format('woff2'),
+         url('/wp-content/fonts/corbel-final/corbell-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
     font-family: 'corbelbold';
-    src: url('/wp-content/fonts/corbel/corbelb-webfont.woff2') format('woff2'),
-         url('/wp-content/fonts/corbel/corbelb-webfont.woff') format('woff');
+    src: url('/wp-content/fonts/corbel-final/corbelb-webfont.woff2') format('woff2'),
+         url('/wp-content/fonts/corbel-final/corbelb-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,14 +26,6 @@
     font-family: 'corbelregular';
     src: url('/wp-content/fonts/corbel/corbel-webfont.woff2') format('woff2'),
          url('/wp-content/fonts/corbel/corbel-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'corbelbold';
-    src: url('/wp-content/fonts/corbel/corbel_bold-webfont.woff2') format('woff2'),
-         url('/wp-content/fonts/corbel/corbel_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -32,6 +40,9 @@ body {
 	background-color: #FFF !important;
 }
 body *:not(i) {
+    font-family: 'corbellight' !important;
+}
+body h1,h2,h3,h4,h5 {
     font-family: 'corbelregular' !important;
 }
 
@@ -207,7 +218,7 @@ h1.tcp-title {
 	grid-column: span 2 / span 2;
 }
 .footer-list {
-	list-style: disc;
+	list-style: none;
 	list-style-position: inside;
 }
 .footer-list li {
