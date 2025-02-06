@@ -13,7 +13,7 @@ get_header();
         <h1 class="text-white uppercase text-[24px] tracking-widest text-center"><?php echo $hero_fields['titulo']; ?></h1>
     </div>
 </section>
-<section class="py-[80px]">
+<section class="py-[80px]" id="nosotros">
     <div class="max-w-[1285px] mx-auto">
         <div class="flex flex-col md:flex-row gap-8">
             <img
@@ -30,7 +30,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="py-[80px] relative bg-white z-50">
+<section class="py-[80px] relative bg-white z-50" id="campo">
     <div class="max-w-[1285px] mx-auto">
         <div>
             <h2 class="text-[36px] px-4 font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($campo_fields['titulo']) ?></h2>
@@ -192,7 +192,7 @@ get_header();
 <section class="md:px-[280px] md:py-[80px] bg-[#343638] sticky top-0 -mt-[400px] h-[1100px]">
     <video class="shadow-lg" src="/wp-content/videos/video-2.mp4" autoplay muted playsinline loop></video>
 </section>
-<section class="pb-[100px] pt-[140px] bg-white relative alcance">
+<section class="pb-[100px] pt-[140px] bg-white relative alcance" id="alcance">
     <div class="max-w-[1285px] mx-auto relative z-50">
         <div class="flex gap-8 justify-between">
             <div>
@@ -218,7 +218,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="pt-[80px] pb-[350px] bg-white relative">
+<section class="pt-[80px] pb-[350px] bg-white relative" id="colaboraciones">
     <div class="max-w-[1285px] mx-auto">
         <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($colaboraciones_fields['titulo']) ?></h2>
         <p class="text-[18px] text-[#111] text-justify px-4 max-w-[560px]">
