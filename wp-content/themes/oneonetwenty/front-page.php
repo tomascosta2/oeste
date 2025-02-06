@@ -19,11 +19,12 @@ get_header();
             <img
                 class="max-w-[50%]"
                 src="<?php echo $nosotros_fields['imagen']['url'] ?>"
-                alt="<?php echo $nosotros_fields['imagen']['alt'] ?>">
+                alt="<?php echo $nosotros_fields['imagen']['alt'] ?>"
+            >
             <div class="md:pe-[40px]">
                 <h2 class="text-[36px] font-bold uppercase text-[#29008D] balance tracking-wider max-w-[400px] mb-4"><?php echo $nosotros_fields['titulo'] ?></h2>
                 <p class="text-[#111] text-justify">
-                    <?php echo strip_tags($nosotros_fields['texto']) ?>
+                    <?php echo strip_tags($nosotros_fields['texto'], '<strong>') ?>
                 </p>
             </div>
         </div>
