@@ -13,7 +13,7 @@ get_header();
         <h1 class="text-white uppercase text-[24px] tracking-widest text-center"><?php echo $hero_fields['titulo']; ?></h1>
     </div>
 </section>
-<section class="py-[80px]" id="nosotros">
+<section class="py-[80px] border-b" id="nosotros">
     <div class="max-w-[1285px] mx-auto">
         <div class="flex flex-col md:flex-row gap-8">
             <img
@@ -196,14 +196,14 @@ get_header();
     <div class="max-w-[1285px] mx-auto relative z-50">
         <div class="flex gap-8 justify-between">
             <div>
-                <div class="md:-mt-[60px] md:pb-[50px]">
+                <div class="md:-mt-[50px] md:pb-[30px]">
                     <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($alcance_fields['titulo']) ?></h2>
                     <div class="grid gap-8">
                         <?php
                         $padding = 420;
                         foreach ($alcance_fields['items'] as $item) {
                             echo '<div class="flex gap-4 items-center ps-[' . $padding . 'px]">';
-                            echo    '<img class="w-[50px]" src="' . $item['icono']['url'] . '" alt="' . $item['icono']['alt'] . '" />';
+                            echo    '<img class="w-[35px]" src="' . $item['icono']['url'] . '" alt="' . $item['icono']['alt'] . '" />';
                             echo    '<h5 class="uppercase text-[18px]">' . $item['nombre'] . '</h5>';
                             echo '</div>';
                             $padding = $padding - 60;
@@ -212,24 +212,24 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="md:max-w-[46%] relative z-50">
+            <div class="md:max-w-[45%] relative z-50">
                 <img class="object-cover h-full" src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
             </div>
         </div>
     </div>
 </section>
-<section class="pt-[80px] pb-[350px] bg-white relative" id="colaboraciones">
+<section class="pt-[80px] pb-[300px] bg-white relative border-t" id="colaboraciones">
     <div class="max-w-[1285px] mx-auto">
         <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($colaboraciones_fields['titulo']) ?></h2>
         <p class="text-[18px] text-[#111] text-justify px-4 max-w-[560px]">
             <?php echo strip_tags($colaboraciones_fields['descripcion']) ?>
         </p>
-        <div class="swiper logosSwiper h-full mt-[80px] px-4">
+        <div class="swiper logosSwiper h-full mt-[130px] px-4">
             <div class="swiper-wrapper h-full" style="transition-timing-function: linear;">
                 <?php
                 foreach ($colaboraciones_fields['logos'] as $logo) {
                     echo '<div class="swiper-slide h-full">
-                            <img class="h-[60px] w-full object-contain mix-blend-lighten" src="' . $logo['logo']['url'] . '" alt="' . $logo['logo']['alt'] . '">
+                            <img class="h-[50px] w-full object-contain mix-blend-lighten" src="' . $logo['logo']['url'] . '" alt="' . $logo['logo']['alt'] . '">
                         </div>';
                 }
                 ?>
