@@ -237,6 +237,7 @@ h1.tcp-title {
 	grid-template-columns: 1fr 1fr;
 	gap: 16px;
 	padding-left: 200px;
+	max-width: 750px;
 }
 .footer-datos p {
 	display: flex;
