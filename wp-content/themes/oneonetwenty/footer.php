@@ -80,10 +80,6 @@
 
 	new Swiper(".logosSwiper", {
 		loop: true,
-		autoplay: {
-			delay: 1000,
-			disableOnInteraction: false,
-		},
 		breakpoints: {
 			0: {
 				slidesPerView: 2,
@@ -95,7 +91,15 @@
 				slidesPerView: 6,
 			},
 		},
-		spaceBetween: 16
+		freeMode: true,
+		grabCursor: true,
+		autoplay: {
+			delay: 0,
+			disableOnInteraction: true
+		},
+		speed: 5000,
+		freeModeMomentum: false,
+		waitForTransition: false
 	});
 </script>
 

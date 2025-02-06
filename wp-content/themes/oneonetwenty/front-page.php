@@ -222,7 +222,7 @@ get_header();
             <?php echo strip_tags($colaboraciones_fields['descripcion']) ?>
         </p>
         <div class="swiper logosSwiper h-full mt-[80px] px-4">
-            <div class="swiper-wrapper h-full">
+            <div class="swiper-wrapper h-full" style="transition-timing-function: linear;">
                 <?php
                 foreach ($colaboraciones_fields['logos'] as $logo) {
                     echo '<div class="swiper-slide h-full">

@@ -223,6 +223,14 @@ h1.tcp-title {
 }
 .footer-list li {
 	margin-bottom: 16px;
+	padding-left: 10px;
+	position: relative;
+}
+.footer-list li::before {
+	content: '.';
+	position: absolute;
+	left: 0;
+	bottom: 4px;
 }
 .footer-datos > div {
 	display: grid;
