@@ -215,7 +215,7 @@ h1.tcp-title {
 	display: flex;
 }
 .tcp-footer__wrapper section:first-child {
-	width: 420px;
+	width: 455px;
 }
 .tcp-footer__wrapper section:last-child {
 	width: -webkit-fill-available;
