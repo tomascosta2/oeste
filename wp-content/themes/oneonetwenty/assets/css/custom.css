@@ -250,6 +250,7 @@ h1.tcp-title {
 }
 .footer-datos p img {
 	height: 40px !important;
+	width: 40px !important;
 	object-fit: contain;
 }
 
