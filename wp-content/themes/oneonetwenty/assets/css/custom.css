@@ -262,6 +262,22 @@ h1.tcp-title {
 	background-color: var(--primary-color) !important;
 }
 
+
+
+/* CUSTOM */
+section.alcance {
+	position: relative;
+}
+section.alcance::after {
+	content: '';
+	width: 30%;
+	height: 100%;
+	background-color: #F2F2F2;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 @media (max-width: 1200px) {
 	/* Header < 1200 */
 	.tcp-header {

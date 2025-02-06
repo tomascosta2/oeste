@@ -33,7 +33,7 @@ get_header();
     <div class="max-w-[1285px] mx-auto">
         <div>
             <h2 class="text-[36px] px-4 font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($campo_fields['titulo']) ?></h2>
-            <div class="flex gap-8">
+            <div class="flex gap-8 pb-[60px]">
                 <div class="w-[50%]">
                     <h5 class="text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_1']['titulo'] ?></h5>
                     <div class="columns-2 gap-4 p-8 oe-campo__lista">
@@ -191,26 +191,28 @@ get_header();
 <section class="md:px-[280px] md:py-[80px] bg-[#343638] sticky top-0 -mt-[400px] h-[1100px]">
     <video class="shadow-lg" src="/wp-content/videos/video-2.mp4" autoplay muted playsinline loop></video>
 </section>
-<section class="py-[80px] bg-white relative">
-    <div class="max-w-[1285px] mx-auto">
+<section class="pb-[100px] pt-[140px] bg-white relative alcance">
+    <div class="max-w-[1285px] mx-auto relative z-50">
         <div class="flex gap-8 justify-between">
             <div>
-                <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($alcance_fields['titulo']) ?></h2>
-                <div class="grid gap-8">
-                    <?php
-                    $padding = 420;
-                    foreach ($alcance_fields['items'] as $item) {
-                        echo '<div class="flex gap-4 items-center ps-[' . $padding . 'px]">';
-                        echo    '<img class="w-[50px]" src="' . $item['icono']['url'] . '" alt="' . $item['icono']['alt'] . '" />';
-                        echo    '<h5 class="uppercase text-[18px]">' . $item['nombre'] . '</h5>';
-                        echo '</div>';
-                        $padding = $padding - 60;
-                    }
-                    ?>
+                <div class="md:-mt-[60px] md:pb-[50px]">
+                    <h2 class="text-[36px] px-4 max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($alcance_fields['titulo']) ?></h2>
+                    <div class="grid gap-8">
+                        <?php
+                        $padding = 420;
+                        foreach ($alcance_fields['items'] as $item) {
+                            echo '<div class="flex gap-4 items-center ps-[' . $padding . 'px]">';
+                            echo    '<img class="w-[50px]" src="' . $item['icono']['url'] . '" alt="' . $item['icono']['alt'] . '" />';
+                            echo    '<h5 class="uppercase text-[18px]">' . $item['nombre'] . '</h5>';
+                            echo '</div>';
+                            $padding = $padding - 60;
+                        }
+                        ?>
+                    </div>
                 </div>
             </div>
-            <div class="py-8 md:max-w-[45%]">
-                <img src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
+            <div class="md:max-w-[46%] relative z-50">
+                <img class="object-cover h-full" src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
             </div>
         </div>
     </div>

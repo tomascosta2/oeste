@@ -92,7 +92,7 @@
 			},
 		},
 		freeMode: true,
-		grabCursor: true,
+		grabCursor: false,
 		autoplay: {
 			delay: 0,
 			disableOnInteraction: true
