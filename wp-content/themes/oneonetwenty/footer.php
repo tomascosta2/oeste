@@ -16,13 +16,22 @@
 	const menuOpener = document.getElementById('menuOpener');
 	const menuCloser = document.getElementById('menuCloser');
 	const menuNav = document.getElementById('menuNav');
+	const menuLinks = menuNav.querySelectorAll('a'); // Selecciona todos los enlaces dentro del menú
 
 	menuOpener.addEventListener('click', () => {
 		menuNav.classList.add('--opened');
-	})
+	});
+
 	menuCloser.addEventListener('click', () => {
 		menuNav.classList.remove('--opened');
-	})
+	});
+
+	// Agrega evento a cada enlace para cerrar el menú al hacer clic
+	menuLinks.forEach(link => {
+		link.addEventListener('click', () => {
+			menuNav.classList.remove('--opened');
+		});
+	});
 </script>
 <script>
 	// Custom Accordion
