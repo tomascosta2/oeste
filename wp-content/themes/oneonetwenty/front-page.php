@@ -16,7 +16,7 @@ get_header();
 <section class="py-[80px] border-b px-4" id="nosotros">
     <div class="max-w-[1285px] mx-auto">
         <div class="flex flex-col md:flex-row gap-8">
-            <img loading="lazy"
+            <img
                 class="w-full md:max-w-[50%]"
                 src="<?php echo $nosotros_fields['imagen']['url'] ?>"
                 alt="<?php echo $nosotros_fields['imagen']['alt'] ?>"
@@ -58,7 +58,7 @@ get_header();
                             <?php
                             foreach ($campo_fields['campo_1']['imagenes'] as $imagen) {
                                 echo '<div class="swiper-slide h-full">
-                                        <img loading="lazy" class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
+                                        <img class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
                                     </div>';
                             }
                             ?>
@@ -97,7 +97,7 @@ get_header();
                             <?php
                             foreach ($campo_fields['campo_2']['imagenes'] as $imagen) {
                                 echo '<div class="swiper-slide h-full">
-                                        <img loading="lazy" class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
+                                        <img class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
                                     </div>';
                             }
                             ?>
@@ -136,7 +136,7 @@ get_header();
                             <?php
                             foreach ($campo_fields['campo_3']['imagenes'] as $imagen) {
                                 echo '<div class="swiper-slide h-full">
-                                        <img loading="lazy" class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
+                                        <img class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
                                     </div>';
                             }
                             ?>
@@ -175,7 +175,7 @@ get_header();
                             <?php
                             foreach ($campo_fields['campo_4']['imagenes'] as $imagen) {
                                 echo '<div class="swiper-slide h-full">
-                                        <img loading="lazy" class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
+                                        <img class="h-full w-full object-cover" src="' . $imagen['imagen']['url'] . '" alt="">
                                     </div>';
                             }
                             ?>
@@ -207,7 +207,7 @@ get_header();
                         $padding = 420;
                         foreach ($alcance_fields['items'] as $item) {
                             echo '<div class="flex gap-4 items-center md:ps-[' . $padding . 'px]">';
-                            echo    '<img loading="lazy" class="w-[35px]" src="' . $item['icono']['url'] . '" alt="' . $item['icono']['alt'] . '" />';
+                            echo    '<img class="w-[35px]" src="' . $item['icono']['url'] . '" alt="' . $item['icono']['alt'] . '" />';
                             echo    '<h5 class="uppercase text-[18px]">' . $item['nombre'] . '</h5>';
                             echo '</div>';
                             $padding = $padding - 60;
@@ -217,7 +217,7 @@ get_header();
                 </div>
             </div>
             <div class="md:max-w-[45%] relative z-50">
-                <img loading="lazy" class="object-cover h-[380px] md:h-full" src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
+                <img class="object-cover h-[380px] md:h-full" src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
             </div>
         </div>
     </div>
@@ -233,7 +233,7 @@ get_header();
                 <?php
                 foreach ($colaboraciones_fields['logos'] as $logo) {
                     echo '<div class="swiper-slide h-full">
-                            <img loading="lazy" class="h-[50px] w-full object-contain mix-blend-lighten" src="' . $logo['logo']['url'] . '" alt="' . $logo['logo']['alt'] . '">
+                            <img class="h-[50px] w-full object-contain mix-blend-lighten" src="' . $logo['logo']['url'] . '" alt="' . $logo['logo']['alt'] . '">
                         </div>';
                 }
                 ?>
