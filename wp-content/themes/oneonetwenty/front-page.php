@@ -37,7 +37,7 @@ get_header();
             <div class="flex flex-col-reverse md:flex-row gap-8 pb-[60px]">
                 <div class="w-full md:w-[50%]">
                     <h5 class="md:block hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_1']['titulo'] ?></h5>
-                    <div class="columns-2 gap-4 p-8 oe-campo__lista">
+                    <div class="columns-2 gap-4 md:md:p-8 oe-campo__lista">
                         <?php
                         foreach ($campo_fields['campo_1']['lista'] as $categoria) {
                             echo '<div class="mb-2">';
@@ -51,7 +51,7 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-full md:w-[50%] h-[560px] md:px-[80px] pb-[40px]" data-delay="3000">
+                <div class="w-full md:w-[50%] h-[475px] md:h-[560px] md:px-[80px] pb-[40px]" data-delay="3000">
                     <h5 class="block md:hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_1']['titulo'] ?></h5>
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
@@ -76,7 +76,7 @@ get_header();
             <div class="flex flex-col-reverse md:flex-row gap-8 py-[60px]">
                 <div class="w-full md:w-[50%]">
                     <h5 class="md:block hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_2']['titulo'] ?></h5>
-                    <div class="p-8 oe-campo__lista">
+                    <div class="md:p-8 oe-campo__lista">
                         <?php
                         foreach ($campo_fields['campo_2']['lista'] as $categoria) {
                             echo '<div class="mb-2">';
@@ -90,7 +90,7 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-full md:w-[50%] h-[560px] md:px-[80px] pb-[40px]">
+                <div class="w-full md:w-[50%] h-[475px] md:h-[560px] md:px-[80px] pb-[40px]">
                     <h5 class="block md:hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_2']['titulo'] ?></h5>
                     <div class="swiper mySwiper h-full" data-delay="2000">
                         <div class="swiper-wrapper h-full">
@@ -115,7 +115,7 @@ get_header();
             <div class="flex flex-col-reverse md:flex-row gap-8 py-[60px]">
                 <div class="w-full md:w-[50%]">
                     <h5 class="md:block hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_3']['titulo'] ?></h5>
-                    <div class="p-8 oe-campo__lista">
+                    <div class="md:p-8 oe-campo__lista">
                         <?php
                         foreach ($campo_fields['campo_3']['lista'] as $categoria) {
                             echo '<div class="mb-2">';
@@ -129,7 +129,7 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-full md:w-[50%] h-[560px] md:px-[80px] pb-[40px]" data-delay="3000">
+                <div class="w-full md:w-[50%] h-[475px] md:h-[560px] md:px-[80px] pb-[40px]" data-delay="3000">
                     <h5 class="block md:hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_3']['titulo'] ?></h5>
                     <div class="swiper mySwiper h-full">
                         <div class="swiper-wrapper h-full">
@@ -154,7 +154,7 @@ get_header();
             <div class="flex flex-col-reverse md:flex-row gap-8 pt-[80px]">
                 <div class="w-full md:w-[50%]">
                     <h5 class="md:block hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_4']['titulo'] ?></h5>
-                    <div class="p-8 oe-campo__lista">
+                    <div class="md:p-8 oe-campo__lista">
                         <?php
                         foreach ($campo_fields['campo_4']['lista'] as $categoria) {
                             echo '<div class="mb-8">';
@@ -168,7 +168,7 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-full md:w-[50%] h-[560px] md:px-[80px] pb-[40px]">
+                <div class="w-full md:w-[50%] h-[475px] md:h-[560px] md:px-[80px] pb-[40px]">
                     <h5 class="block md:hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_4']['titulo'] ?></h5>
                     <div class="swiper mySwiper h-full" data-delay="3000">
                         <div class="swiper-wrapper h-full">
