@@ -194,7 +194,7 @@ get_header();
     </div>
 </section>
 <section class="md:px-[280px] md:py-[80px] bg-[#343638] md:sticky top-0 md:-mt-[400px] md:h-[1100px]">
-    <video class="shadow-lg" src="/wp-content/videos/video-2.mp4" autoplay muted playsinline loop></video>
+    <video class="shadow-lg" src="/wp-content/videos/video-2.mp4" preload="none" autoplay muted playsinline loop></video>
 </section>
 <section class="pb-[100px] pt-[140px] bg-white relative alcance px-4" id="alcance">
     <div class="max-w-[1285px] mx-auto relative z-50">
