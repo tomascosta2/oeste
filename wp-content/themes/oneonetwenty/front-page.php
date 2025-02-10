@@ -51,9 +51,9 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-full md:w-[50%] h-[475px] md:h-[560px] md:px-[80px] pb-[40px]" data-delay="3000">
+                <div class="w-full md:w-[50%] md:h-[560px] md:px-[80px] pb-[40px]" data-delay="3000">
                     <h5 class="block md:hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_1']['titulo'] ?></h5>
-                    <div class="swiper mySwiper h-full">
+                    <div class="swiper mySwiper h-[450px] md:h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_1']['imagenes'] as $imagen) {
@@ -90,9 +90,9 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-full md:w-[50%] h-[475px] md:h-[560px] md:px-[80px] pb-[40px]">
+                <div class="w-full md:w-[50%] md:h-[560px] md:px-[80px] pb-[40px]">
                     <h5 class="block md:hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_2']['titulo'] ?></h5>
-                    <div class="swiper mySwiper h-full" data-delay="2000">
+                    <div class="swiper mySwiper h-[450px] md:h-full" data-delay="2000">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_2']['imagenes'] as $imagen) {
@@ -129,9 +129,9 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-full md:w-[50%] h-[475px] md:h-[560px] md:px-[80px] pb-[40px]" data-delay="3000">
+                <div class="w-full md:w-[50%] md:h-[560px] md:px-[80px] pb-[40px]" data-delay="3000">
                     <h5 class="block md:hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_3']['titulo'] ?></h5>
-                    <div class="swiper mySwiper h-full">
+                    <div class="swiper mySwiper h-[450px] md:h-full">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_3']['imagenes'] as $imagen) {
@@ -168,9 +168,9 @@ get_header();
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <div class="w-full md:w-[50%] h-[475px] md:h-[560px] md:px-[80px] pb-[40px]">
+                <div class="w-full md:w-[50%] md:h-[560px] md:px-[80px] pb-[40px]">
                     <h5 class="block md:hidden text-[20px] py-1 px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4"><?php echo $campo_fields['campo_4']['titulo'] ?></h5>
-                    <div class="swiper mySwiper h-full" data-delay="3000">
+                    <div class="swiper mySwiper h-[450px] md:h-full" data-delay="3000">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_4']['imagenes'] as $imagen) {
