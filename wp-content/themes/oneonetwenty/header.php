@@ -18,7 +18,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" defer/>
 	<link rel="stylesheet" href="<?= get_template_directory_uri() . '/assets/css/custom.css' ?>">
 	<!-- Favicon -->
 	<link  rel="icon" media="(prefers-color-scheme: light)" href="/wp-content/icons/favicon-light-mode.ico">
