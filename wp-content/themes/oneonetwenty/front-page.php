@@ -217,7 +217,7 @@ get_header();
                 </div>
             </div>
             <div class="md:max-w-[45%] relative z-50">
-                <img loading="lazy" class="object-cover h-full" src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
+                <img loading="lazy" class="object-cover h-[380px] md:h-full" src="<?php echo $alcance_fields['imagen']['url'] ?>" alt="<?php echo $alcance_fields['imagen']['alt'] ?>">
             </div>
         </div>
     </div>
