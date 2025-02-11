@@ -291,6 +291,9 @@ section.alcance::after {
 	.tcp-header {
 		padding: 25px 0;
 	}
+	.tcp-header__wrapper {
+		flex-direction: row-reverse;
+	}
 	.tcp-header__toggler {
 		display: flex;
 	}
@@ -300,11 +303,11 @@ section.alcance::after {
 		display: flex;
 	}
 	.tcp-navigation__closer path {
-		fill: #FFF;
+		fill: #111;
 	}
 	.tcp-navigation__logo img,
 	.tcp-header__logo img {
-		width: 130px;
+		width: 180px;
 	}
 	.tcp-navigation {
 		display: none;
@@ -312,7 +315,7 @@ section.alcance::after {
 		top: 0;
 		left: 0;
 		height: 100vh;
-		background: #201C23;
+		background: #FFF;
 		padding: 25px 16px;
 		width: 0;
 		transition: all 1s;
@@ -345,8 +348,11 @@ section.alcance::after {
 		height: 100%;
 	}
 	body.home .tcp-navigation__list a {
-		color: #FFF;
+		color: #111;
 		width: 100%;
+	}
+	.tcp-navigation__list a:not(li:first-child a)::before {
+		display: none;
 	}
 }
 @media (max-width: 992px) {
