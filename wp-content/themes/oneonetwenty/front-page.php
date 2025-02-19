@@ -8,7 +8,7 @@ $colaboraciones_fields = get_field('colaboraciones');
 get_header();
 ?>
 <section class="relative w-full h-[450px] md:h-[600px] flex items-end justify-center py-[25px] text-balance md:py-[80px] px-4">
-    <video class="w-full h-full object-cover object-right md:object-center absolute top-0 left-0" src="/wp-content/videos/video-hero.mp4" autoplay="true" muted="true" loop="true" poster=""></video>
+    <video class="w-full h-full object-cover object-[-290px] md:object-center absolute top-0 left-0" src="/wp-content/videos/video-hero.mp4" autoplay="true" muted="true" loop="true" poster=""></video>
     <div style="position: relative; z-index: 1; color: white;">
         <h1 class="text-white uppercase text-[20px] md:text-[24px] tracking-widest text-center"><?php echo $hero_fields['titulo']; ?></h1>
     </div>
