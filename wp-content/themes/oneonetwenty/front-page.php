@@ -201,7 +201,7 @@ get_header();
         <div class="flex flex-col-reverse md:flex-row gap-8 justify-between">
             <div>
                 <div class="md:-mt-[50px] md:pb-[30px] px-4 md:px-0">
-                    <h2 class="text-[36px] md:px-4 max-w-[65%] md:max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($alcance_fields['titulo']) ?></h2>
+                    <h2 class="text-[36px] md:px-4 max-w-[70%] md:max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($alcance_fields['titulo']) ?></h2>
                     <div class="flex flex-col-reverse md:grid gap-8">
                         <?php
                         $padding = 420;
