@@ -53,7 +53,7 @@ get_header();
                 <!-- Carrusel -->
                 <div class="w-full md:w-[50%] md:h-[560px] md:px-[80px] md:pb-[40px]" data-delay="3000">
                     <h5 class="block md:hidden text-[20px] py-[6px] px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4 w-[90%] md:w-full"><?php echo $campo_fields['campo_1']['titulo'] ?></h5>
-                    <div class="swiper mySwiper h-[450px] md:h-full aspect-square">
+                    <div class="swiper mySwiper h-[450px] md:h-full md:aspect-square">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_1']['imagenes'] as $imagen) {
@@ -92,7 +92,7 @@ get_header();
                 <!-- Carrusel -->
                 <div class="w-full md:w-[50%] md:h-[560px] md:px-[80px] md:pb-[40px]">
                     <h5 class="block md:hidden text-[20px] py-[6px] px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4 w-[90%] md:w-full"><?php echo $campo_fields['campo_2']['titulo'] ?></h5>
-                    <div class="swiper mySwiper h-[450px] md:h-full aspect-square" data-delay="2000">
+                    <div class="swiper mySwiper h-[450px] md:h-full md:aspect-square" data-delay="2000">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_2']['imagenes'] as $imagen) {
@@ -131,7 +131,7 @@ get_header();
                 <!-- Carrusel -->
                 <div class="w-full md:w-[50%] md:h-[560px] md:px-[80px] md:pb-[40px]" data-delay="3000">
                     <h5 class="block md:hidden text-[20px] py-[6px] px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4 w-[90%] md:w-full"><?php echo $campo_fields['campo_3']['titulo'] ?></h5>
-                    <div class="swiper mySwiper h-[450px] md:h-full aspect-square">
+                    <div class="swiper mySwiper h-[450px] md:h-full md:aspect-square">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_3']['imagenes'] as $imagen) {
@@ -170,7 +170,7 @@ get_header();
                 <!-- Carrusel -->
                 <div class="w-full md:w-[50%] md:h-[560px] md:px-[80px] md:pb-[40px]">
                     <h5 class="block md:hidden text-[20px] py-[6px] px-4 uppercase text-white bg-[#29008D] tracking-wider mb-4 w-[90%] md:w-full"><?php echo $campo_fields['campo_4']['titulo'] ?></h5>
-                    <div class="swiper mySwiper h-[450px] md:h-full aspect-square" data-delay="3000">
+                    <div class="swiper mySwiper h-[450px] md:h-full md:aspect-square" data-delay="3000">
                         <div class="swiper-wrapper h-full">
                             <?php
                             foreach ($campo_fields['campo_4']['imagenes'] as $imagen) {
@@ -201,7 +201,7 @@ get_header();
         <div class="flex flex-col-reverse md:flex-row gap-8 justify-between">
             <div>
                 <div class="md:-mt-[50px] md:pb-[30px] px-4 md:px-0">
-                    <h2 class="text-[36px] md:px-4 md:max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($alcance_fields['titulo']) ?></h2>
+                    <h2 class="text-[36px] md:px-4 max-w-[65%] md:max-w-[70%] font-bold uppercase text-[#29008D] balance tracking-wider mb-4"><?php echo strip_tags($alcance_fields['titulo']) ?></h2>
                     <div class="flex flex-col-reverse md:grid gap-8">
                         <?php
                         $padding = 420;
